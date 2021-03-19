@@ -32,7 +32,7 @@ npm i @tbhaxor/fixer
 **CDN**
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tbhaxor/fixer@1.0.0/dist/bundle/fixer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tbhaxor/node-fixer/dist/bundle/fixer.web.js"></script>
 ```
 
 ## Usage
