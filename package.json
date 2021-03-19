@@ -1,6 +1,6 @@
 {
   "name": "@tbhaxor/fixer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fixer.io SDK for Nodejs and Browser",
   "main": "dist/index.js",
   "typings": "dist/types/index.d.ts",
