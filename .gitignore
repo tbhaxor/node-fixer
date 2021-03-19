@@ -88,9 +88,6 @@ typings/
 # Next.js build output
 .next
 
-# Nuxt.js build / generate output
-.nuxt
-dist
 
 # Storybook build outputs
 .out
@@ -98,7 +95,8 @@ dist
 storybook-static
 
 # rollup.js default build output
-dist/
+dist/*.js
+dist/types/*
 
 # Gatsby files
 .cache/
@@ -142,5 +140,7 @@ temp/
 ### vscode ###
 !.vscode/settings.json
 !.vscode/extensions.json
+
+### Bundle file
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,vscode,node

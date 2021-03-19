@@ -8,7 +8,7 @@ module.exports = (env) => {
     resolve: { extensions: ['.tsx', '.ts', '.js'] },
     output: {
       filename: 'fixer.web.js',
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'dist', 'bundle'),
       library: 'Fixer',
       libraryExport: 'default',
     },
