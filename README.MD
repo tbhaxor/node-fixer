@@ -76,12 +76,11 @@ N/A
 
 <details><summary><b>Response</b></summary>
 
-|  Name   |  Type  | Description            |
-| :-----: | :----: | :--------------------- |
-| symbols | object | Human readable message |
+|  Name   |  Type  | Description                                                                           |
+| :-----: | :----: | :------------------------------------------------------------------------------------ |
+| symbols | object | All supported currencies with their respective three-letter currency codes and names. |
 
 </details>
-<br>
 <br>
 
 ## Latest Rates
@@ -114,7 +113,6 @@ Real-time exchange rate data updated every 60 minutes, every 10 minutes or every
 |  symbols  | object | Exchange rate data for the currencies you have requested.              |
 
 </details>
-<br>
 <br>
 
 ### Conversion
@@ -158,7 +156,6 @@ Retrieve information about how currencies fluctuate on a day-to-day basis.
 
 </details>
 <br>
-<br>
 
 ### Fluctuation
 
@@ -201,7 +198,6 @@ Retrieve information about how currencies fluctuate on a day-to-day basis.
 
 </details>
 <br>
-<br>
 
 ### Timeseries
 
@@ -238,7 +234,6 @@ Query the API for daily historical rates between two dates of your choice, with 
 
 </details>
 
-<br>
 <br>
 
 ### Error Handling
