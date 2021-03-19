@@ -7,8 +7,8 @@ module.exports = (env) => {
     module: { rules: [{ test: /\.tsx?$/, use: 'ts-loader', exclude: /node_modules/ }] },
     resolve: { extensions: ['.tsx', '.ts', '.js'] },
     output: {
-      filename: 'fixer.min.js',
-      path: path.resolve(__dirname, 'dist', 'bundle'),
+      filename: 'fixer.web.js',
+      path: path.resolve(__dirname, 'dist'),
       library: 'Fixer',
       libraryExport: 'default',
     },
