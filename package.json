@@ -1,0 +1,51 @@
+{
+  "name": "@tbhaxor/fixer",
+  "version": "1.0.0",
+  "description": "Fixer.io SDK for Nodejs and Browser",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "scripts": {
+    "build:pre": "rm -rf dist",
+    "build:node": "tsc --build tsconfig.json",
+    "build:browser": "webpack --stats none",
+    "build": "yarn build:pre && yarn build:node && yarn build:browser",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbhaxor/node-fixer"
+  },
+  "bugs": {
+    "url": "https://github.com/tbhaxor/node-fixer/issues"
+  },
+  "keywords": [
+    "fixer",
+    "tbhaxor",
+    "api",
+    "sdk",
+    "browser",
+    "typescript",
+    "typings",
+    "currency-exchange",
+    "currency-convertor",
+    "currencies"
+  ],
+  "author": {
+    "email": "tbhaxor@gmail.com",
+    "name": "Gurkirat Singh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "eslint": "^7.22.0",
+    "prettier": "^2.2.1",
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
