@@ -1,9 +1,8 @@
 {
   "name": "@tbhaxor/fixer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Fixer.io SDK for Nodejs and Browser",
   "main": "dist/index.js",
-  "typings": "dist/types/index.d.ts",
   "scripts": {
     "build:pre": "rm -rf dist",
     "build:node": "tsc --build tsconfig.json",
